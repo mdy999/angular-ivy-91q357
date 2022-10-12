@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AppDynamic } from './dynamic/dynamic.component';
+import { AdBannerComponent } from './ad-banner/ad-banner.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,7 @@ import { AppDynamic } from './dynamic/dynamic.component';
       },
     ]),
   ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, AdBannerComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
